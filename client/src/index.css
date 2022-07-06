@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input {
+  background-color: green;
+  margin-bottom: 2%;
+  height: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-collapse {
+  margin-left: 60%;
+}
+
+.active {
+  color: #91e718;
+}
+
+.h2 {
+  margin-bottom: 1%;
+}
+
+.card-wrapper {
+  margin: 2%;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 3%;
+  background-color: #bebdbd;
+  border-radius: 15px;
+  margin-top: 6%;
+}
+
+.form-container {
+  width: 25%;
+}
+
+label {
+  font-weight: 700;
+}
+
+p {
+  color: darkred;
+  font-size: 15px;
+}
+
+input {
+  height: 28px;
+}
+
+.display-one {
+  color: #000000;
+}
+
+.one-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.btn {
+  margin-bottom: 2%;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.button {
+  margin-top: 2%;
+}
+
+.image {
+  width: 55%;
+  height: 410px;
+  margin-bottom: 2%;
+}
+
+.all-animals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-image {
+  height: 35px;
+}
+
+.display-link {
+  color: white;
+  text-decoration: none;
+}
+
+.display-container {
+  max-width: 100%;
+  background-color:#FAEBD7;
+}
+
+.card {
+  box-shadow: 2px 3px 2px 1px;
+}
+
+.header-image {
+  height: 50px;
+  background-color: antiquewhite;
+}
+
+.display-one-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: baseline;
+}
